@@ -1,0 +1,126 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+/*For all the hyperlinks*/
+a{
+    text-decoration:none;
+    color:black;
+}
+
+a:hover{
+    color:red;
+}
+
+h1 {
+    color: rgb(13, 163, 126);
+    font-family:Georgia, "Times New Roman", Times, serif;
+}
+
+.navbar {
+    margin:0px;
+    border:0px;
+}
+.nav-tools {
+    padding-top:0px;
+}
+
+.background {
+    background-color: lightgrey;
+    padding-top:50px;
+}
+
+.main-section {
+    background-color: white;
+    margin-left:50px;
+    margin-right:60px;
+    padding-left:40px;
+    padding-right:40px;
+    padding-top:30px;
+}
+
+.main-section-2 {
+    background-color:white;
+    margin-left:85px;
+    margin-right:85px;
+    padding-left:40px;
+    padding-right:40px;
+    padding-top:30px;
+}
+
+.second-section {
+    background-color:white;
+    margin-left:0px;
+    margin-right:85px;
+    padding-left:40px;
+    padding-right:40px;
+    padding-top:30px;
+}
+
+.body-text {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size:110%;
+}
+
+.viz-layout {
+    margin-top:10px;
+    margin-bottom:10px;
+    margin-left:10px;
+    margin-right:10px;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left:5px;
+    padding-right:5px;    
+}
+
+#select-id {
+    border: 0px;
+    border-color: white;
+    width: 60px;
+}
+
+#title {
+    font-size: 35px;
+    background-color: rgb(13, 163, 126);
+    padding-left: 6px;
+    padding-right:6px;
+    padding-top:6px;
+    padding-bottom:6px;
+    color: #fff;
+    font-family:Georgia, "Times New Roman", Times, serif;
+}
+
+footer{
+    /*Color and Font*/
+    background-color:grey;
+    color:white;
+    text-align:right;
+
+    /*Margins and Paddings*/
+    width:100%;
+    position:fixed;
+    left:0;
+    bottom:0;
+    border-top:3px solid rgb(13, 163, 126);
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
